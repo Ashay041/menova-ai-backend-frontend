@@ -1,0 +1,42 @@
+Symptom Tracker Screens
+
+Value: Transforms isolated symptoms into meaningful patterns and actionable insights
+Usability: Visual graphs make trends immediately apparent; color coding creates instant recognition
+Design Decision: Integration with wellness plans creates a seamless transition from problem identification to solution
+
+Community Screens
+
+Value: Combats isolation by connecting users with similar experiences
+Usability: Content is categorized by format (discussions/blogs) and topic for easy navigation
+Design Decision: Author information and related plans create multiple pathways for users to find relevant content
+
+Wellness Plans Hub
+
+Value: Transforms scattered advice into structured, actionable programs
+Usability: Plans are recommended based on tracked symptoms, reducing cognitive load
+Design Decision: Community connections are embedded in each plan to combine expert guidance with peer support
+
+Plan Detail & Discussion Screens
+
+Value: Combines day-by-day guidance with community experiences
+Usability: Clear progress visualization motivates continued engagement
+Design Decision: Community discussion is integrated but visually distinct from the structured plan content
+
+Connection Points Between Screens
+
+Value: Creates a holistic experience where tracking, learning, and community reinforce each other
+Usability: Multiple entry points to the same content accommodate different user journeys
+Design Decision: Consistent color coding (coral for plans, yellow for community) creates intuitive navigation cues
+
+Symptom-to-Plan Connection Screen
+
+Value: Transforms symptom reporting from a passive activity to an opportunity for improvement
+Usability: Presents plan recommendations at the perfect moment of need
+Design Decision: Offers both immediate and deferred action options to accommodate different user states
+
+The overall design system prioritizes:
+
+Reducing Cognitive Load: Clean layouts with clear hierarchy and visual cues
+Creating Meaningful Connections: Linking symptoms, plans, and community experiences
+Accommodating Different Engagement Styles: Providing multiple navigation paths
+Balancing Structure and Community: Using consistent visual language to distinguish expert-guided content from peer experiences

@@ -1,0 +1,52 @@
+# Menova.ai Wireframe Design Rationale
+
+The wireframes for Menova.ai have been carefully designed to maximize both usability and value for women navigating menopause. Here's how each screen's design accomplishes these goals:
+
+## Home Screen
+- **Value**: Provides immediate access to key features and personalized insights
+- **Usability**: Places high-frequency actions (logging symptoms, asking questions) in prominent, large quick-access buttons
+- **Design Decision**: Today's insights are displayed directly on the home screen to deliver immediate value without requiring navigation
+
+## AI Chat Screen
+- **Value**: Offers personalized guidance that would otherwise require a doctor's appointment
+- **Usability**: Familiar chat interface reduces learning curve; quick-reply buttons streamline common queries
+- **Design Decision**: Message bubbles are sized differently for AI vs user, creating clear visual distinction
+
+## Symptom Tracker Screens
+- **Value**: Transforms isolated symptoms into meaningful patterns and actionable insights
+- **Usability**: Visual graphs make trends immediately apparent; color coding creates instant recognition
+- **Design Decision**: Integration with wellness plans creates a seamless transition from problem identification to solution
+
+## Community Screens
+- **Value**: Combats isolation by connecting users with similar experiences
+- **Usability**: Content is categorized by format (discussions/blogs) and topic for easy navigation
+- **Design Decision**: Author information and related plans create multiple pathways for users to find relevant content
+
+## Wellness Plans Hub
+- **Value**: Transforms scattered advice into structured, actionable programs
+- **Usability**: Plans are recommended based on tracked symptoms, reducing cognitive load
+- **Design Decision**: Community connections are embedded in each plan to combine expert guidance with peer support
+
+## Plan Detail & Discussion Screens
+- **Value**: Combines day-by-day guidance with community experiences
+- **Usability**: Clear progress visualization motivates continued engagement
+- **Design Decision**: Community discussion is integrated but visually distinct from the structured plan content
+
+## Connection Points Between Screens
+- **Value**: Creates a holistic experience where tracking, learning, and community reinforce each other
+- **Usability**: Multiple entry points to the same content accommodate different user journeys
+- **Design Decision**: Consistent color coding (coral for plans, yellow for community) creates intuitive navigation cues
+
+## Symptom-to-Plan Connection Screen
+- **Value**: Transforms symptom reporting from a passive activity to an opportunity for improvement
+- **Usability**: Presents plan recommendations at the perfect moment of need
+- **Design Decision**: Offers both immediate and deferred action options to accommodate different user states
+
+The overall design system prioritizes:
+
+1. **Reducing Cognitive Load**: Clean layouts with clear hierarchy and visual cues
+2. **Creating Meaningful Connections**: Linking symptoms, plans, and community experiences
+3. **Accommodating Different Engagement Styles**: Providing multiple navigation paths
+4. **Balancing Structure and Community**: Using consistent visual language to distinguish expert-guided content from peer experiences
+
+These design choices address the key user needs identified in your research: reliable information, pattern recognition, community support, and personalized recommendations—all delivered through an intuitive interface that respects the user's time and attention.

@@ -1,0 +1,51 @@
+# Menova.ai App Flow
+
+## Core Navigation Structure
+Users navigate through four main sections via the bottom navigation bar:
+
+1. **Home Screen** - Dashboard with overview and quick access
+2. **AI Chat** - Personalized conversational guidance
+3. **Symptom Tracker** - Log and analyze symptoms
+4. **Community** - User-generated content and discussions
+
+## Detailed Flows
+
+### Home Flow
+- **Home Screen** → Quick access to all key features
+- From Home, users can navigate to any main section
+
+### Symptom Tracking Flow
+1. **Symptom Tracker Overview** - Shows symptom patterns and active plans
+2. **Log Symptom Detail** - Records specific symptoms with severity
+3. **Symptom-to-Plan Connection** - Recommends relevant wellness plans based on logged symptoms
+4. **Tracker with Challenges Integration** - Shows how symptoms relate to active plans
+5. **Tracker Plans Tab** - Dedicated view of all plans with progress metrics
+
+### Community Flow
+1. **Community Screen (Revised)** - Hub for user discussions and blogs
+   - Has tabs for Discussions, Blogs, and My Content
+2. **Blog Detail Screen** - Individual blog post with comments
+3. **Community Discussion Screen** - Thread view of conversations
+4. **Community posts contain "Related Plan" sections** → Link to Wellness Plans
+
+### Wellness Plans Flow
+1. **Wellness Plans Hub** - Directory of expert-guided programs
+2. **Plan Detail Screen (Fixed)** - Daily tasks and progress tracking
+3. **Plan Discussion Screen** - Community discussions specific to a plan
+   - Includes tabs for All Posts, Success Stories, and Questions
+
+## Connection Points
+
+- **From Community to Plans:**
+  Community Screen → Related Plan link → Wellness Plans Hub → Plan Detail
+
+- **From Plans to Community:**
+  Wellness Plans Hub → View Stories link → Plan Discussion
+
+- **From Symptoms to Plans:**
+  Log Symptom Detail → Recommended Plan panel → Join Now → Plan Detail
+
+- **From Plans to Tracker:**
+  Plan Detail → Progress visualization → Tracker with Challenges Integration
+
+These connection points create a cohesive experience where users can seamlessly move between tracking symptoms, getting expert guidance through plans, and connecting with others in the community who share similar experiences.

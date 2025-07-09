@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Menova.ai color scheme */
+    --menova-primary: #F26158; /* Primary coral/red */
+    --menova-secondary: #FFE18B; /* Secondary yellow */
+    --menova-light-pink: #FFD7D0; /* Light pink background */
+    --menova-light-blue: #CBE2EA; /* Light blue accents */
+    
+    /* Extended primary palette */
+    --menova-primary-50: #FEF2F1;
+    --menova-primary-100: #FDE3E2;
+    --menova-primary-200: #FBCBCA;
+    --menova-primary-300: #F9A4A1;
+    --menova-primary-400: #F6827F;
+    --menova-primary-500: #F26158; /* Primary */
+    --menova-primary-600: #E33A31;
+    --menova-primary-700: #C82E25;
+    --menova-primary-800: #A32820;
+    --menova-primary-900: #85221C;
+    --menova-primary-950: #4A1310;
+    
+    /* Extended secondary palette */
+    --menova-secondary-50: #FFFAED;
+    --menova-secondary-100: #FFF5DB;
+    --menova-secondary-200: #FFEBB7;
+    --menova-secondary-300: #FFE18B; /* Secondary */
+    --menova-secondary-400: #FFD65F;
+    --menova-secondary-500: #FFC533;
+    --menova-secondary-600: #E0A514;
+    --menova-secondary-700: #B8850F;
+    --menova-secondary-800: #956C0C;
+    --menova-secondary-900: #785609;
+    --menova-secondary-950: #453105;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Background gradients */
+  .gradient-primary-bg {
+    @apply bg-gradient-to-br from-[#F26158] to-[#E33A31];
+  }
+  
+  .gradient-secondary-bg {
+    @apply bg-gradient-to-br from-[#FFE18B] to-[#FFC533];
+  }
+  
+  .gradient-pink-bg {
+    @apply bg-gradient-to-br from-white to-[#FFD7D0];
+  }
+  
+  .gradient-blue-bg {
+    @apply bg-gradient-to-br from-white to-[#CBE2EA];
+  }
+  
+  /* Colored panels and cards */
+  .primary-panel {
+    @apply bg-[#F26158] text-white rounded-xl p-4;
+  }
+  
+  .secondary-panel {
+    @apply bg-[#FFE18B] text-gray-800 rounded-xl p-4;
+  }
+  
+  .pink-panel {
+    @apply bg-[#FFD7D0] text-gray-800 rounded-xl p-4;
+  }
+  
+  .blue-panel {
+    @apply bg-[#CBE2EA] text-gray-800 rounded-xl p-4;
+  }
+  
+  /* Buttons */
+  .primary-button {
+    @apply bg-[#F26158] hover:bg-[#E33A31] text-white font-medium py-2 px-4 rounded-full transition-colors;
+  }
+  
+  .secondary-button {
+    @apply bg-white border border-[#F26158] text-[#F26158] hover:bg-gray-50 font-medium py-2 px-4 rounded-full transition-colors;
+  }
+  
+  .yellow-button {
+    @apply bg-[#FFE18B] hover:bg-[#FFC533] text-gray-800 font-medium py-2 px-4 rounded-full transition-colors;
+  }
+  
+  /* Text styles */
+  .section-heading {
+    @apply text-2xl font-bold text-gray-900 md:text-3xl;
+  }
+  
+  .subsection-heading {
+    @apply text-xl font-semibold text-gray-900;
+  }
+  
+  /* Card styles */
+  .feature-card {
+    @apply p-4 rounded-xl bg-white shadow-sm border border-gray-100 hover:shadow transition-shadow;
+  }
+  
+  /* Icon containers */
+  .icon-circle {
+    @apply flex items-center justify-center w-10 h-10 rounded-full bg-[#F26158] text-white;
+  }
+  
+  .icon-circle-secondary {
+    @apply flex items-center justify-center w-10 h-10 rounded-full bg-[#FFE18B] text-gray-800;
+  }
+}
+
+/* iOS-specific styles for native app */
+:root {
+  /* Top safe area padding (for notch) */
+  --safe-area-inset-top: env(safe-area-inset-top, 0px);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.ios-header-safe {
+  padding-top: var(--safe-area-inset-top);
+}
+
+.ios-bottom-safe {
+  padding-bottom: var(--safe-area-inset-bottom);
+}

@@ -1,0 +1,30 @@
+I'm developing Menova.ai, a digital platform addressing the challenges women face during menopause. As a product manager at a health tech startup, I'm leading this project based on extensive user research that identified significant gaps in menopause care.
+Our survey of women (predominantly in perimenopause ~56%) revealed these key pain points:
+* Medical professionals dismissing symptoms as "just aging"
+* Lack of reliable information about menopause stages and symptoms
+* Difficulty tracking symptoms and identifying patterns/triggers
+* Feeling isolated without peer support
+* No comprehensive digital solution for menopause management
+I've designed wireframes for both web and mobile platforms with these core features:
+1. AI Chatbot: Provides personalized guidance using verified medical information. The reasoning behind this feature is to give women 24/7 access to reliable information when medical professionals are dismissive or unavailable.
+2. Symptom Tracker: Allows users to log symptoms, track patterns, and receive AI insights about potential triggers. This addresses the user need to understand connections between lifestyle choices and symptom severity.
+3. Community Forums: Creates safe spaces for women to connect with others in similar stages. We structured this by menopause stage (peri/meno/post) to ensure relevant peer support.
+4. Personalized Wellness Plans: Delivers customized recommendations based on symptom patterns. This feature exists because women reported wanting holistic approaches to manage symptoms.
+Our brand identity uses:
+* Primary color: 
+#F26158 (coral/red) - Representing warmth and energy
+* Secondary: 
+#FFE18B (yellow) - Symbolizing optimism and clarity
+* Background accents: 
+#FFD7D0 (light pink) - Creating a soft, approachable feeling
+* Tertiary: 
+#CBE2EA (light blue) - Adding calm and trust elements
+I'd like help with [specific next step - e.g., refining user onboarding flow, expanding the AI chatbot capabilities, designing the symptom correlation algorithm logic, etc.]
+My specific challenges include [e.g., balancing simplicity with comprehensive tracking, ensuring medical accuracy while being supportive, strategizing user retention, etc.]
+This prompt provides detailed context about:
+1. Your role and professional perspective
+2. The evidence-based reasoning behind each feature
+3. The psychological intent behind design choices
+4. The strategic business goals you're addressing
+5. The specific user problems you're solving
+It will help the assistant understand not just what you're building, but why each element exists and how it connects to your overall product strategy.
